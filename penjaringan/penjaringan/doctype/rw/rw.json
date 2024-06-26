@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-21 14:42:30.406270",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "nama_rw",
+  "id_rt"
+ ],
+ "fields": [
+  {
+   "fieldname": "nama_rw",
+   "fieldtype": "Data",
+   "label": "Nama Rw"
+  },
+  {
+   "fieldname": "id_rt",
+   "fieldtype": "Link",
+   "label": "Id RT",
+   "options": "RT"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-24 09:04:35.193695",
+ "modified_by": "Administrator",
+ "module": "Penjaringan",
+ "name": "RW",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

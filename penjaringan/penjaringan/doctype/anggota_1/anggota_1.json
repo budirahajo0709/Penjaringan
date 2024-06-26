@@ -1,0 +1,110 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-19 13:40:23.714911",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "namakegiatan",
+  "kecamatan",
+  "kelurahan",
+  "kota",
+  "provinsi",
+  "tahun",
+  "keterangan",
+  "idpenghayatanpengalaman",
+  "idgotongroyong",
+  "rw"
+ ],
+ "fields": [
+  {
+   "fieldname": "namakegiatan",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Nama Kegiatan",
+   "reqd": 1
+  },
+  {
+   "fieldname": "kecamatan",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Kecamatan"
+  },
+  {
+   "fieldname": "kelurahan",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Kelurahan"
+  },
+  {
+   "fieldname": "provinsi",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Provinsi"
+  },
+  {
+   "fieldname": "keterangan",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Keterangan"
+  },
+  {
+   "fieldname": "kota",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Kota"
+  },
+  {
+   "fieldname": "idpenghayatanpengalaman",
+   "fieldtype": "Link",
+   "label": "Id Penghatan & Pengalaman",
+   "options": "PengahatanPengalaman"
+  },
+  {
+   "fieldname": "tahun",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tahun"
+  },
+  {
+   "fieldname": "idgotongroyong",
+   "fieldtype": "Link",
+   "label": "Id Gotong Royong",
+   "options": "GotongRoyong"
+  },
+  {
+   "fieldname": "rw",
+   "fieldtype": "Link",
+   "label": "RW",
+   "options": "RW"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-21 14:42:42.627104",
+ "modified_by": "Administrator",
+ "module": "Penjaringan",
+ "name": "Anggota 1",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
