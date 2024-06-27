@@ -1,0 +1,115 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-27 10:43:35.368041",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "nama_kegiatan",
+  "kelurahan",
+  "kecamatan",
+  "kota",
+  "provinsi",
+  "pokja",
+  "tahun",
+  "keterangan",
+  "id_jumlah",
+  "rw"
+ ],
+ "fields": [
+  {
+   "fieldname": "nama_kegiatan",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Nama Kegiatan",
+   "reqd": 1
+  },
+  {
+   "fieldname": "kelurahan",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Kelurahan"
+  },
+  {
+   "fieldname": "kecamatan",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Kecamatan"
+  },
+  {
+   "fieldname": "kota",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Kota"
+  },
+  {
+   "fieldname": "provinsi",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Provinsi"
+  },
+  {
+   "fieldname": "pokja",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Pokja",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tahun",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tahun"
+  },
+  {
+   "fieldname": "keterangan",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Keterangan"
+  },
+  {
+   "fieldname": "id_jumlah",
+   "fieldtype": "Link",
+   "label": "id Jumlah",
+   "options": "Jumlah"
+  },
+  {
+   "fieldname": "rw",
+   "fieldtype": "Link",
+   "label": "RW",
+   "options": "RW"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-27 11:03:06.447295",
+ "modified_by": "Administrator",
+ "module": "Penjaringan",
+ "name": "DataPotensiDataPokja1",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

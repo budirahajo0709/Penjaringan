@@ -1,0 +1,173 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-27 10:49:09.540245",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "jml_kader_pik",
+  "klp_pik",
+  "pik_aktif",
+  "pik_tidak_aktif",
+  "klp_lansia",
+  "lansia_aktif",
+  "majelis_taklim",
+  "anggota_taklim_aktif",
+  "klp_bkr",
+  "anggota_bkr",
+  "klp_bkl",
+  "anggota_bkl",
+  "rukun_kematian",
+  "klp_jimpitan",
+  "data_anak_yatim",
+  "rt"
+ ],
+ "fields": [
+  {
+   "fieldname": "jml_kader_pik",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Jumlah Kader PIK + POKTAN 1"
+  },
+  {
+   "fieldname": "klp_pik",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "KLP PIK"
+  },
+  {
+   "fieldname": "pik_aktif",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "PIK YANG AKTIF"
+  },
+  {
+   "fieldname": "pik_tidak_aktif",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "PIK YANG TIDAK AKTIF"
+  },
+  {
+   "fieldname": "klp_lansia",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "KLP LANSIA"
+  },
+  {
+   "fieldname": "lansia_aktif",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "LANSIA YANG AKTIF"
+  },
+  {
+   "fieldname": "majelis_taklim",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "MAJELIS TAKLIM"
+  },
+  {
+   "fieldname": "anggota_taklim_aktif",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "ANGGOTA TAKLIM YANG AKTIF"
+  },
+  {
+   "fieldname": "klp_bkr",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "KLP BKR"
+  },
+  {
+   "fieldname": "anggota_bkr",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "ANGGOTA BKR"
+  },
+  {
+   "fieldname": "klp_bkl",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "KLP BKL"
+  },
+  {
+   "fieldname": "anggota_bkl",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "ANGGOTA BKL"
+  },
+  {
+   "fieldname": "rukun_kematian",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "RUKUN KEMATIAN"
+  },
+  {
+   "fieldname": "klp_jimpitan",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "KLP JIMPITAN"
+  },
+  {
+   "fieldname": "data_anak_yatim",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "DATA ANAK YATIM"
+  },
+  {
+   "fieldname": "rt",
+   "fieldtype": "Link",
+   "label": "RT",
+   "options": "RT"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-27 11:04:47.677578",
+ "modified_by": "Administrator",
+ "module": "Penjaringan",
+ "name": "Jumlah",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
